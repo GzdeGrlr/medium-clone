@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css"> <!--Css bağlandı-->
+        <link rel="stylesheet" href="fontawesome/css/all.min.css"> <!--Fontawesome bağlandı-->
+        <link rel="stylesheet" href="/css/medium.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
+        <title>Medium</title>
+    </head>
+    <body>
+        <script src="js/bootstrap.bundle.min.js"></script> <!--Bootstrap bağlandı-->
+        <div class="bg-orange border-bottom-dark">          <!--Navbar-->
+            <div class="container"> <!--Container içine alındı ama backgroundu komple sarı yapmak için div oluşturulmalı.-->
+                <nav class="navbar navbar-expand-lg py-3">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"><strong>Medium</strong> 
+                        </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Our Story</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Membership</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Write</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link">Sign In</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link btn btn-dark text-light ms-3">Get Started</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+               </div>
+        </div>
+
+        <div class="bg-orange py-5 border-bottom-dark">  <!--Carousel-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <h1 class="display-1 pt-3 pb-4" style="font-size: 90px;">Stay curious.</h1>
+                        <p class="lead pb-4">Discover stories, thinking, and expertise <br> from writers on any topic.</p>
+                        <button type="button" class="bg-dark text-light rounded-4 px-4 py-1" style="width:213px; font-size: 20px;"><strong> Start reading </strong></button>
+                    </div>
+                    <div class="col-6">
+                        <img src="https://picsum.photos/id/177/300/300" alt="World Map" class="rounded-circle float-end d-none d-md-block">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+          <div class="row">
+            <div class="col-12">
+              <h6><img src="fontawesome/svgs/solid/chart-line.svg" alt="Trending icon" style="height: 20px;"> <small class="ms-3"><strong>TRENDING ON MEDIUM</strong></small></h6>
+            </div>
+          </div>  
+          
+          <div class="row">  <!--Orta Kısım-->
+            <article class="col-md-4 mb-2">  <!--Sayfada 1 row üzerinde 3 article var, yani 4 column'a bölmeliyiz.-->
+              <div class="row">  <!--Bu tek article kendi içinde 1'e 12 olarak ayrılıyor.-->
+                <div class="col-1 my-2 ps-1">
+                  <h3 class="text-muted"><strong>01</strong></h3>
+                </div>
+                <div class="col-11 my-2">
+                  <img src="https://miro.medium.com/fit/c/20/20/1*h8t-l5-g4oLgeRlZyJ4VfQ.png" alt="Pic"/>
+                    <span class="little-font-size">
+                      Patrick Metzger in The Haven
+                    </span>
+                 
+                  <h6 class="mt-2"><strong>Memo To All Housekeeping, Kitchen, and Dining Room Staff At Mar-A-Lago</strong></h6>
+                  <ul class="list-inline">
+                    <li class="list-inline-item text-muted" style="font-size:13px;">Aug 27</li>
+                    <li class="list-inline-item text-muted" style="font-size:13px;">2 min read</li>
+                    <li class="list-inline-item"><i class="fa-solid fa-star"></i></li>
+                  </ul>
+                </div>
+
+              </div>
+            </article>
+
+            <article class="col-md-4">
+              <div class="row">
+                <div class="col-1 my-2  ps-1">
+                  <h3 class="text-muted"><strong>02</strong></h3>
+                </div>
+                <div class="col-11 my-2">
+                  <img src="https://miro.medium.com/fit/c/20/20/1*CJe3891yB1A1mzMdqemkdg.jpeg" alt="Pic"/>
+                    <span class="little-font-size">
+                      Dennis Bakhuis in Towards Data Science
+                    </span>
+                  
+                  <h6 class="mt-2"><strong>Python 3.14 will be faster than C++</strong></h6>
+                  <ul class="list-inline">
+                    <li class="list-inline-item text-muted" style="font-size:13px;">Sep 10</li>
+                    <li class="list-inline-item text-muted" style="font-size:13px;">6 min read</li>
+                    <li class="list-inline-item"><i class="fa-solid fa-star"></i></li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+
+            <article class="col-md-4">
+              <div class="row">
+                <div class="col-1 my-2 ps-1">
+                  <h3 class="text-muted"><strong>03</strong></h3>
+                </div>
+                <div class="col-11 my-2">
+                  <img src="https://miro.medium.com/fit/c/20/20/1*0oIJdWxqjL9Y6P0B0J6Syw.jpeg" alt="Pic"/>
+                    <span class="little-font-size">
+                      Tom Cooper
+                    </span>
+                  
+                  <h6 class="mt-2"><strong>Armenia vs. Azerbaijan, 12–14 September 2022</strong></h6>
+                  <ul class="list-inline">
+                    <li class="list-inline-item text-muted" style="font-size:13px;">Sep 15</li>
+                    <li class="list-inline-item text-muted" style="font-size:13px;">6 min read</li>
+                    <li class="list-inline-item"><i class="fa-solid fa-star"></i></li>
+                  </ul>
+                </div>
+              </div>           
+            </article>
+
+            <article class="col-md-4">
+              <div class="row">
+                <div class="col-1 my-2 ps-1">
+                  <h3 class="text-muted"><strong>04</strong></h3>
+                </div>
+                <div class="col-11 my-2">
+                  <img src="https://miro.medium.com/fit/c/20/20/1*kSJsBH9TGPH2A-U9IR_TFQ.png" alt="Pic"/>
+                    <span class="little-font-size">
+                      Jean-Louis Gassée in Monday Note
+                    </span>
+                
+                  <h6 class="mt-2"><strong>Apple’s Next Big Thing: A Business Model Change</strong></h6>
+                  <ul class="list-inline">
+                    <li class="list-inline-item text-muted" style="font-size:13px;">Sep 11</li>
+                    <li class="list-inline-item text-muted" style="font-size:13px;">5 min read</li>
+                    <li class="list-inline-item"><i class="fa-solid fa-star"></i></li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+
+            <article class="col-md-4">
+              <div class="row">
+                <div class="col-1 my-2 ps-1">
+                  <h3 class="text-muted"><strong>05</strong></h3>
+                </div>
+                <div class="col-11 my-2">
+                  <img src="https://miro.medium.com/fit/c/20/20/1*QNoA3XlXLHz22zQazc0syg.png" alt="Pic"/>
+                    <span class="little-font-size">
+                      Aaron Zinger in Better Programming
+                    </span>
+                  
+                  <h6 class="mt-2"><strong>Software Component Names Should Be Whimsical And Cryptic</strong></h6>
+                  <ul class="list-inline">
+                    <li class="list-inline-item text-muted" style="font-size:13px;">Sep 10</li>
+                    <li class="list-inline-item text-muted" style="font-size:13px;">3 min read</li>
+                    <li class="list-inline-item"><i class="fa-solid fa-star"></i></li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+
+            <article class="col-md-4">
+              <div class="row">
+                <div class="col-1 my-2 ps-1">
+                  <h3 class="text-muted"><strong>06</strong></h3>
+                </div>
+                <div class="col-11 my-2">
+                  <img src="https://miro.medium.com/fit/c/20/20/1*NtFBQxy0CSE_Z5J9mJ6FNA.jpeg" alt="Pic"/>
+                    <span class="little-font-size">
+                      Isaiah McCall in Yard Couch
+                    </span>
+                 
+                  <h6 class="mt-2"><strong>YouTube is Dead and Something New is Coming</strong></h6>
+                  <ul class="list-inline">
+                    <li class="list-inline-item text-muted" style="font-size:13px;">Sep 6</li>
+                    <li class="list-inline-item text-muted" style="font-size:13px;">6 min read</li>
+                    <li class="list-inline-item"><i class="fa-solid fa-star"></i></li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+          </div>
+
+        </div>
+        <hr>
+        <div class="container mt-5"> <!--Alt Bölüm Makalelerin Başlangıcı-->
+          <div class="row">
+            <section class="col-sm-8">
+              <article class="row mb-4">
+                <div class="col-8">
+                  <img src="https://miro.medium.com/fit/c/20/20/1*UmXe4ATjCtj3OENRaZnIpw.jpeg" alt="Scott">
+                  <span class="ms-1 small"><strong>Scott Galloway</strong></span>
+                  <h5 class="mt-2"><strong>Attentive</strong></h5>
+                  <p>We’ve moved from an oil economy to an attention economy.</p>
+                  <ul class="list-inline">
+                    <li class="list-inline-item text-muted" style="font-size:13px;">Sep 16</li>                   
+                    <li class="list-inline-item text-muted" style="font-size:13px;">11 min read</li>
+                    <li class="list-inline-item"><button type="button" class="btn btn-light btn-sm">No Mercy No Malice</button>    
+                    <li class="list-inline-item"><i class="fa-solid fa-star"></i></li> 
+                      <span class="float-end"><svg width="25" height="25" viewBox="0 0 25 25" fill="none" class="mk"><path d="M18 2.5a.5.5 0 0 1 1 0V5h2.5a.5.5 0 0 1 0 1H19v2.5a.5.5 0 1 1-1 0V6h-2.5a.5.5 0 0 1 0-1H18V2.5zM7 7a1 1 0 0 1 1-1h3.5a.5.5 0 0 0 0-1H8a2 2 0 0 0-2 2v14a.5.5 0 0 0 .8.4l5.7-4.4 5.7 4.4a.5.5 0 0 0 .8-.4v-8.5a.5.5 0 0 0-1 0v7.48l-5.2-4a.5.5 0 0 0-.6 0l-5.2 4V7z" fill="#292929"></path></svg></span>                    
+                  </ul>
+                 </div>
+                <div class="col-4">
+                  <img src="https://miro.medium.com/fit/c/200/130/1*_8OrL-1mZZ4nHb2ZllzJoQ.png" alt="Article Pic">
+                </div>
+              </article>
+
+              <article class="row mb-4">
+                <div class="col-8">
+                  <img src="https://miro.medium.com/fit/c/20/20/1*BUtYRgHazG8H5DoPDrL06A.jpeg" alt="Matt">
+                  <span class="ms-1 small"><strong>Matt Schellhas</strong></span>
+                  <h5 class="mt-2"><strong>Good Work. Here’s some more.</strong></h5>
+                  <p>One way leaders drive mediocrity.</p>
+                  <ul class="list-inline">
+                    <li class="list-inline-item text-muted" style="font-size:13px;">Sep 16</li>                   
+                    <li class="list-inline-item text-muted" style="font-size:13px;">6 min read</li>
+                    <li class="list-inline-item"><button type="button" class="btn btn-light btn-sm">Leadership</button></li>
+                    <li class="list-inline-item"><i class="fa-solid fa-star"></i></li> 
+                    <span class="float-end"><svg width="25" height="25" viewBox="0 0 25 25" fill="none" class="mk"><path d="M18 2.5a.5.5 0 0 1 1 0V5h2.5a.5.5 0 0 1 0 1H19v2.5a.5.5 0 1 1-1 0V6h-2.5a.5.5 0 0 1 0-1H18V2.5zM7 7a1 1 0 0 1 1-1h3.5a.5.5 0 0 0 0-1H8a2 2 0 0 0-2 2v14a.5.5 0 0 0 .8.4l5.7-4.4 5.7 4.4a.5.5 0 0 0 .8-.4v-8.5a.5.5 0 0 0-1 0v7.48l-5.2-4a.5.5 0 0 0-.6 0l-5.2 4V7z" fill="#292929"></path></svg></span>                 
+                  </ul>
+                 </div>
+                <div class="col-4">
+                  <img src="https://miro.medium.com/fit/c/200/134/1*LHd_lUSfSkFZsC-HepiUDQ.png" alt="Article Pic">
+                </div>
+              </article>
+
+              <article class="row mb-4">
+                <div class="col-8">
+                  <img src="https://miro.medium.com/fit/c/20/20/1*DzkledvGHgi69C3rDmnIJg.jpeg" alt="Mark">
+                  <span class="ms-1 small"><strong>Markham Heid</strong></span>
+                  <h5 class="mt-2"><strong>This Simple Prompt Could Fix Our Fake News Problem</strong></h5>
+                  <p>Asking people to endorse what they share could slow the flow of online nonsense.</p>
+                  <ul class="list-inline">
+                    <li class="list-inline-item text-muted" style="font-size:13px;">Sep 14</li>                   
+                    <li class="list-inline-item text-muted" style="font-size:13px;">4 min read</li>
+                    <li class="list-inline-item"><i class="fa-solid fa-star"></i></li> 
+                    <span class="float-end"><svg width="25" height="25" viewBox="0 0 25 25" fill="none" class="mk"><path d="M18 2.5a.5.5 0 0 1 1 0V5h2.5a.5.5 0 0 1 0 1H19v2.5a.5.5 0 1 1-1 0V6h-2.5a.5.5 0 0 1 0-1H18V2.5zM7 7a1 1 0 0 1 1-1h3.5a.5.5 0 0 0 0-1H8a2 2 0 0 0-2 2v14a.5.5 0 0 0 .8.4l5.7-4.4 5.7 4.4a.5.5 0 0 0 .8-.4v-8.5a.5.5 0 0 0-1 0v7.48l-5.2-4a.5.5 0 0 0-.6 0l-5.2 4V7z" fill="#292929"></path></svg></span>                 
+                  </ul>
+                 </div>
+                <div class="col-4">
+                  <img src="https://miro.medium.com/fit/c/200/134/0*Edhmrqh7OKEENlq7" alt="Article Pic">
+                </div>
+              </article>
+
+              <article class="row mb-4">
+                <div class="col-8">
+                  <img src="https://miro.medium.com/fit/c/20/20/1*x_mCaDHhKGokPnU3KP_VWA.jpeg" alt="Alex">
+                  <span class="ms-1 small"><strong>Alex Kantrowitz</strong></span>
+                  <h5 class="mt-2"><strong>In Delaware’s Kathaleen McCormick, Elon Musk Finds A Judge Who Means Business</strong></h5>
+                  <p>Could a Delaware native who grew up just a few miles from the Chancery Court push Elon Musk to go through with his Twitter...</p>
+                  <ul class="list-inline">
+                    <li class="list-inline-item text-muted" style="font-size:13px;">Sep 16</li>                   
+                    <li class="list-inline-item text-muted" style="font-size:13px;">6 min read</li>
+                    <li class="list-inline-item"><i class="fa-solid fa-star"></i></li> 
+                    <span class="float-end"><svg width="25" height="25" viewBox="0 0 25 25" fill="none" class="mk"><path d="M18 2.5a.5.5 0 0 1 1 0V5h2.5a.5.5 0 0 1 0 1H19v2.5a.5.5 0 1 1-1 0V6h-2.5a.5.5 0 0 1 0-1H18V2.5zM7 7a1 1 0 0 1 1-1h3.5a.5.5 0 0 0 0-1H8a2 2 0 0 0-2 2v14a.5.5 0 0 0 .8.4l5.7-4.4 5.7 4.4a.5.5 0 0 0 .8-.4v-8.5a.5.5 0 0 0-1 0v7.48l-5.2-4a.5.5 0 0 0-.6 0l-5.2 4V7z" fill="#292929"></path></svg></span>                 
+                  </ul>
+                 </div>
+                <div class="col-4">
+                  <img src="https://miro.medium.com/fit/c/200/134/1*o9AQ_x3o1V1g9_ujhqikvg.jpeg" alt="Article Pic">
+                </div>
+              </article>
+            </section>
+  
+            <aside class="col-md-4">
+              <h6 style="font-size:12px; margin-bottom: 15px;"><strong>DISCOVER MORE OF WHAT MATTERS TO YOU</strong></h6>
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <button type="button" class="btn btn-outline-secondary btn-sm">Self</button>
+                </li>
+                <li class="list-inline-item">
+                  <button type="button" class="btn btn-outline-secondary btn-sm">Relantionships</button>
+                </li>
+                <li class="list-inline-item">
+                  <button type="button" class="btn btn-outline-secondary btn-sm">Data Science</button>
+                </li> 
+                <li class="list-inline-item">
+                  <button type="button" class="btn btn-outline-secondary btn-sm">Programming</button>
+                </li>
+                <li class="list-inline-item">
+                  <button type="button" class="btn btn-outline-secondary btn-sm">Productivity</button>
+                </li>
+                <li class="list-inline-item">
+                  <button type="button" class="btn btn-outline-secondary btn-sm">JavaScript</button>
+                </li>  
+                <li class="list-inline-item">
+                  <button type="button" class="btn btn-outline-secondary btn-sm">Machine Learning</button>
+                </li>
+                <li class="list-inline-item">
+                  <button type="button" class="btn btn-outline-secondary btn-sm">Politics</button>
+                </li>
+                <li class="list-inline-item">
+                  <button type="button" class="btn btn-outline-secondary btn-sm">Health</button>
+                </li>               
+              </ul>   
+              <hr> 
+              <ul class="list-inline text-muted">
+                <li class="list-inline-item">Help</li>
+                <li class="list-inline-item">Status</li>
+                <li class="list-inline-item">Writers</li>
+                <li class="list-inline-item">Blog</li>
+                <li class="list-inline-item">Careers</li>
+                <li class="list-inline-item">Privacy</li>
+                <li class="list-inline-item">Terms</li>
+                <li class="list-inline-item">About</li>
+                <li class="list-inline-item">Knowable</li>
+              </ul>
+            </aside>
+            
+          </div>
+        </div>        
+    </body>
+
+</html>
